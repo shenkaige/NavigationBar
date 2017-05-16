@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="xyz.codedream.lib.nav.sample.MainActivity">
+
+    <xyz.codedream.lib.nav.NavigationBar
+        android:id="@+id/nav_bar_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/nav_bg"/>
+
+    <xyz.codedream.lib.nav.NavigationBar
+        android:id="@+id/nav_bar_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/nav_bg"/>
+
+    <xyz.codedream.lib.nav.NavigationBar
+        android:id="@+id/nav_bar_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/nav_bg"/>
+
+</LinearLayout>

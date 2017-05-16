@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/et_search_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ed_bg_search_bar"
+            android:drawableLeft="@drawable/ic_search_bar_search"
+            android:drawablePadding="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:textColor="#F00"
+            android:paddingRight="36dp"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/btn_search_keyword_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_search_bar_clear" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/btn_search_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:text="取消"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+</merge>
